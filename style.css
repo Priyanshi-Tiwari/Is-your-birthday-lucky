@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#ACFFAD;
+}
+h1{
+    font-size: 3rem;
+    color:#54436B;
+    text-align: center;
+}
+
+nav{
+    background-color: #71EFA3;
+    margin:auto;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1rem;
+}
+
+#flex-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ACFFAD;
+}
+
+#birthday-div{
+    margin:1rem auto;
+    padding: 1rem;
+    color:#54436B;
+    font-size: 2rem;
+}
+
+#date-input{
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#number-div{
+    margin: 1rem;
+    font-size: 2rem;
+    color: #54436B;
+}
+
+#num-input{
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+#check-btn{
+    padding:0.5rem;
+    width:20%;
+    font-size: 1.2rem;
+    background-color: #54436B;
+    color:white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+footer{
+    background-color: #71EFA3; 
+    font-size: 1.5rem;
+    color:#54436B;
+    border-top-left-radius: 0.5rem;
+     text-align: center;
+     margin-bottom: 0;
+     padding: 2rem 1rem;
+     display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+     
+}
+
+
+
+#output-div{
+   font-size: 1.5rem;
+   margin:1.2rem;
+   color:#d83a56 ;
+   font-weight: bold;
+}
+
+.about-div{
+    font-weight: bold;
+    width:15%;
+    border-bottom: 0.4rem solid #54436B ;
+    font-size: 2rem;
+    text-align: center;
+    margin:auto
+    
+}
+
+.privacy-div{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-header{
+    margin-top: 0.5rem;
+}
+
+#image{
+    text-align: center;
+
+    display: block;
+    margin:auto;
+}
