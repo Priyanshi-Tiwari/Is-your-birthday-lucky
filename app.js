@@ -20,6 +20,7 @@ if(a%b===0){
 }
 else{
     outputDiv.innerText="Oops! your birthdate is not lucky"
+    image.innerHTML="<image src='images/sad.gif'>"
 }
 }
 
@@ -29,6 +30,22 @@ function checkIfBirthdayIsLucky(dob){
     var sum= calculateSum(dob)
     compareValues(sum,numInput.value)
 }
+
+checkBtn.addEventListener("click", checkIfBirthdayIsLucky)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function clickHandler(){
 //     var userInput= dateInput.value ;
@@ -49,6 +66,4 @@ function checkIfBirthdayIsLucky(dob){
 //     }
 // }
 
-console.log(dateInput);
-console.log(numInput)
-checkBtn.addEventListener("click", checkIfBirthdayIsLucky)
+
